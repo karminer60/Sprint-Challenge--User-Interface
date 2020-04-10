@@ -71,6 +71,18 @@ p {
     margin: 0 auto;
 }
 
+.container #navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 60px;
+}
+
+.container #navigation nav {
+    display:flex;
+    justify-content: center;
+    padding:20px;
+}
 .top-content {
     display: flex;
     flex-wrap: wrap;
