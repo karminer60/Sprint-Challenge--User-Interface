@@ -72,16 +72,15 @@ p {
 }
 
 .container #navigation{
-    width: 100%;
     display: flex;
     justify-content: space-evenly;
-    padding: 60px;
+    padding: 30px;
+    padding-top:40px;
 }
 
-.container #navigation nav {
-    display:flex;
-    justify-content: center;
-    padding:20px;
+.container #navigation nav a{
+    padding:30px;
+    padding-top: 20px;
 }
 .top-content {
     display: flex;
