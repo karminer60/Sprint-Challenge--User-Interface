@@ -292,11 +292,20 @@ footer nav a {
         flex-direction: column;
         align-items: center; 
     }
-
-@media(800px){
-    .container{
-        padding: 20%;
+    .middle-content h2{
+        display:flex;
+        justify-content: center;
     }
+    }
+
+@media(max-width:800px){
+    .container{
+    
+        width:97%;
+    
+    }
+    
+       
 }
 
 }
